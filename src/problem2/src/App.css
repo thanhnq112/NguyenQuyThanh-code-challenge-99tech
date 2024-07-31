@@ -1,0 +1,96 @@
+.App {
+  display: flex;
+  height: 100dvh;
+  background-color: #eee;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 40dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.src,
+.des {
+  height: 10dvh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.input-value,
+.output-value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.number-field {
+  width: 40%;
+  border: 1px solid #888;
+  border-radius: 0.3rem;
+  padding: 6px 10px;
+  outline: none;
+}
+
+.input-init,
+.output-init {
+  border: 1px solid #888;
+  border-radius: 0.3rem;
+  height: 100%;
+  width: 30%;
+  outline: none;
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+
+.image {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.btn {
+  background-color: #357edd;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1rem;
+  height: 7dvh;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.btn:hover {
+  background-color: #3d8df5;
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
